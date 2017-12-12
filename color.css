@@ -1,0 +1,86 @@
+html{
+    height: 100%;
+}
+body{
+/*    background-color:#77919d;*/
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background: #f5fbff;     
+}
+
+h1{
+    margin: 0;
+    line-height: 160%;
+    text-align: center;
+    background-color: #274c5e;
+    color: white;
+    font-weight: normal;
+    padding: 20px 0;
+     text-shadow: 1px 1px #274c5e;
+}
+
+
+#colorDisplay {
+    font-size: 150%;
+    
+}
+
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 40%;
+    transition: background-color 0.5s;
+    -wevkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#stripe{
+    background-color: #dae9f4;
+    height: 35px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    background-color: #274c5e;
+    color: white;
+}
+#message {
+    display: inline-block;
+    width: 20%;
+    color: green;
+    font-weight: 700;
+    font-size: 1.4em;
+    
+}
+
+button{
+    border: none;
+    background-color: #dae9f4;
+    height: 100%;
+    font-weight: 700;
+    color: #274c5e;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.4s;
+    -wevkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background-color: #274c5e;
+    color: white;
+}
